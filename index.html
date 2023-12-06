@@ -12,8 +12,7 @@
         }
 
         body {
-            background: url(img/bg.jpg) center center no-repeat;
-            background-size: cover;
+            background: url(img/bg.jpg);
         }
 
         .top {
@@ -27,6 +26,17 @@
             height: 500px;
             margin: 200px auto;
             background-color: rgb(216, 169, 112);
+            border: solid black;
+        }
+
+        .card2 {
+            overflow: hidden;
+            width: 500px;
+            height: 500px;
+            border-radius: 250px;
+            margin: 200px auto;
+            background-color: rgb(216, 169, 112);
+            border: solid black;
         }
 
         .left {
@@ -39,21 +49,34 @@
 
         .right {
             float: right;
-            margin-top: 50px;
+            margin-top: 37.5px;
             margin-right: 100px;
             width: 300px;
-            height: 400px;
+            height: 425px;
+        }
+
+        div.card:hover {
+            box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, .7);
+        }
+
+        div.card2:hover {
+            box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, .7);
         }
     </style>
 </head>
 
 <body>
+    <div style="position: absolute;top: 720px;left: 300px;"><img src="img/jiantou.png" alt=""></div>
+    <div style="position: absolute;top: 720px;left: 600px;"><img src="img/jiantou.png" alt=""></div>
+    <div style="position: absolute;top: 720px;right: 600px;"><img src="img/jiantou.png" alt=""></div>
+    <div style="position: absolute;top: 720px;right: 300px;"><img src="img/jiantou.png" alt=""></div>
     <div class="top">
-        <h1 style="line-height: 50px;text-align: center;">I am </h1>
+        <h1 style="line-height: 50px;text-align: center;">I am ZhouYang&nbsp;&nbsp;Li</h1>
     </div>
     <div class="card">
+
         <div class="left">
-            <p style="text-align: center;line-height: 36px;font-weight: 800;border: solid gray;">
+            <p style="text-align: center;line-height: 40px;font-weight: 800;border: solid gray;">
                 Name: ZhouYang Li<br>
                 Gender: Male<br>
                 Hometown: Huai'an, Jiangsu Province<br>
@@ -70,24 +93,24 @@
             <img src="img/1.jpg" alt="" style="width: 100%">
         </div>
     </div>
-    <div class="card">
+    <div class="card2">
         <div
-            style="width: 400px; height: 50px; border-radius: 25px; background-color: whitesmoke; margin: 87.5px auto;">
-            <p style="line-height: 50px; text-align: center;font-weight: 700;font-size: xx-large;"><a href="#"
-                    target="_blank">Personal abilities</a>
+            style="width: 300px; height: 50px; border-radius: 25px; background-color: whitesmoke; margin: 87.5px auto;">
+            <p style="line-height: 50px; text-align: center;font-weight: 700;font-size: xx-large;"><a
+                    href="pages/1.html" target="_blank">Personal abilities</a>
             </p>
         </div>
         <div
-            style="width: 400px; height: 50px; border-radius: 25px; background-color: whitesmoke; margin: 87.5px auto;">
-            <p style="line-height: 50px; text-align: center;font-weight: 700;font-size: xx-large;"><a href="#"
-                    target="_blank">Practical
+            style="width: 350px; height: 50px; border-radius: 25px; background-color: whitesmoke; margin: 87.5px auto;">
+            <p style="line-height: 50px; text-align: center;font-weight: 700;font-size: xx-large;"><a
+                    href="pages/2.html" target="_blank">Practical
                     experience</a>
             </p>
         </div>
         <div
-            style="width: 400px; height: 50px; border-radius: 25px; background-color: whitesmoke; margin: 87.5px auto;">
-            <p style="line-height: 50px; text-align: center;font-weight: 700;font-size: xx-large;"><a href="#"
-                    target="_blank">Self
+            style="width: 300px; height: 50px; border-radius: 25px; background-color: whitesmoke; margin: 87.5px auto;">
+            <p style="line-height: 50px; text-align: center;font-weight: 700;font-size: xx-large;"><a
+                    href="pages/3.html" target="_blank">Self
                     evaluation</a>
             </p>
         </div>
